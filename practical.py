@@ -1,0 +1,23 @@
+print("   Welcome to Interactive Personal Data Collector")
+name = input("Enter your Name : ")
+age = int(input("Enter your Age : "))
+weight = float(input("Enter Your Weight : "))
+height = float(input("Enter Your Height in Meters : "))
+fav_number = int(input("Enter your favourite number: "))
+print("Thank you! Here is the information we collected:")
+current_year = 2026
+birth_year = current_year - age
+height_cm = height * 100
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Height: {height} meters")
+print(f"Height in cm: {height_cm}")
+print(f"Favourite Number: {fav_number}")
+print(f"Your approximate Birth Year is: {birth_year} (Based on your {age})")
+print(f"name -> Value: {name}, Type: {type(name)}, Memory Address: {id(name)}")
+print(f"age -> Value: {age}, Type: {type(age)}, Memory Address: {id(age)}")
+print(f"height -> Value: {height}, Type: {type(height)}, Memory Address: {id(height)}")
+print(f"fav_number -> Value: {fav_number}, Type: {type(fav_number)}, Memory Address: {id(fav_number)}")
+print(f"birth_year -> Value: {birth_year}, Type: {type(birth_year)}, Memory Address: {id(birth_year)}")
+print(f"height_cm -> Value: {height_cm}, Type: {type(height_cm)}, Memory Address: {id(height_cm)}")
+print("Thank you for using the Personal Data Collector. Goodbye!")
